@@ -1,8 +1,5 @@
 # Check Point Certified Security Administrator (CCSA)
 
-**Student:** Akinsola, Gideon Oluwaferanmi
-**Student ID:** C11/26/CCSA/17099
-
 ## Overview
 
 This repository documents my practical labs for the CCSA course, with one folder per lab.

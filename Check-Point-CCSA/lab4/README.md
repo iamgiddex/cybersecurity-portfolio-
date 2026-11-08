@@ -18,4 +18,4 @@ I built and published an eight-rule Access Control rulebase (with four sections)
 - [Full report](CCSA104_Lab4_Report.pdf)
 
 ## Demonstration
-Recorded demo: PASTE-YOUR-LINK-HERE
+Recorded demo: https://youtu.be/2WkzeKFg8_Q

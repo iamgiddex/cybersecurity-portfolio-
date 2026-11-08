@@ -10,9 +10,9 @@ The labs cover Check Point security administration, including administrator acco
 
 By the end of the course, I should be able to:
 
-1. **Introduction to Quantum Security (CCSA101):** Explain the basic concepts of quantum security and why they matter for modern network protection.
-2. **Administrator Account Management (CCSA102):** Create and manage administrator accounts, assign permissions, and control access to the management environment.
-3. **Object Management (CCSA103):** Create, organise and maintain network objects and services so they can be reused in policies.
+1. **Introduction to Quantum Security (CCSA101):** Explain the basic concepts of quantum security and why they matter for modern network protection. Build a management lab, explain the three-tier Check Point architecture (SmartConsole, Security Management Server, Security Gateway), and navigate Gaia and SmartConsole.
+2. **Administrator Account Management (CCSA102):** Create administrator accounts and permission profiles using least privilege, and publish changes through sessions.
+3. **Object Management (CCSA103):** Modify, create and clone network, host and service objects, group them, and publish and install the changes.
 4. **Security Policy Management (CCSA104):** Apply the Positive Control Model, build and order an Access Control rulebase, configure NAT, and follow the create, publish, install and verify workflow.
 5. **Policy Layers (CCSA105):** Use policy layers to divide a security policy into logical parts and understand how traffic is evaluated across them.
 6. **Security Operations Monitoring (CCSA106):** Monitor gateway status, logs and events, and use them to investigate security activity and troubleshoot problems.
@@ -31,9 +31,9 @@ Across all modules, I also aim to:
 
 | Lab | Course Code | Course Title | Status |
 |---|---|---|---|
-| Lab 1 | CCSA101 | Introduction to Quantum Security | Pending |
-| Lab 2 | CCSA102 | Administrator Account Management | Pending |
-| Lab 3 | CCSA103 | Object Management | Pending |
+| Lab 1 | CCSA101 | [Introduction to Quantum Security](lab1) | Completed (read-only setup and exploration) |
+| Lab 2 | CCSA102 | [Administrator Account Management](lab2) | Completed (A-SMS only) |
+| Lab 3 | CCSA103 | [Object Management](lab3) | Completed (A-SMS only) |
 | Lab 4 | CCSA104 | [Security Policy Management](lab4) | Completed (configuration only); policy installation unsuccessful due to expired gateway certificates |
 | Lab 5 | CCSA105 | Policy Layers | Pending |
 | Lab 6 | CCSA106 | Security Operations Monitoring | Pending |

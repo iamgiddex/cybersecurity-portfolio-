@@ -1,10 +1,5 @@
 # Lab 2: Administrator Account Management
 
-**Course:** CCSA102 Administrator Account Management
-**Student:** Akinsola, Gideon Oluwaferanmi
-**Student ID:** C11/26/CCSA/17099
-**Completed:** 3 November 2026
-
 ## Summary
 On the management server A-SMS, I modified the default cpadmin account, created a personal Super User, an Auditor (Read Only All), a custom IPS Only permission profile and an IPS administrator account, then published the changes and installed the database.
 

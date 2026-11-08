@@ -213,7 +213,7 @@ Policy installation on A-GW-Cluster was unsuccessful because the VPN certificate
 
 ## 12. Supporting Evidence
 
-Screenshots and supporting configuration evidence will be maintained in the `screenshots` folder within this laboratory directory.
+The complete screenshot evidence for this laboratory is available below:
 
-Evidence should be labelled according to the task and activity it demonstrates.
+[View Lab 4 Screenshot Evidence (PDF)](screenshots/CCSA-Lab-04-Screenshot-Evidence.pdf)
 

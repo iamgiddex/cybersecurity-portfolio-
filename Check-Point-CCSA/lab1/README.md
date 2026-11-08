@@ -1,10 +1,5 @@
 # Lab 1: Check Point Lab Setup and Administration
 
-**Course:** CCSA101 Introduction to Quantum Security
-**Student:** Akinsola, Gideon Oluwaferanmi
-**Student ID:** C11/26/CCSA/17099
-**Completed:** 30 October 2026
-
 ## Summary
 I built a private management lab around the A-SMS virtual machine in VMware Workstation Pro, connected to it through the Gaia Portal and SmartConsole R82, and explored Gaia and SmartConsole read-only. I changed nothing in the supplied environment.
 

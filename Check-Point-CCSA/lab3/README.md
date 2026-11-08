@@ -1,9 +1,3 @@
-# Lab 3: Object Management
-
-**Course:** CCSA103 Object Management
-**Student:** Akinsola, Gideon Oluwaferanmi
-**Student ID:** C11/26/CCSA/17099
-**Completed:** 4 November 2026
 
 ## Summary
 On the management server A-SMS, I modified a network object, created a host object, cloned a default service instead of editing it, added the host to a group, then published and installed the database.

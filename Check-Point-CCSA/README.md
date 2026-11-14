@@ -14,7 +14,7 @@ By the end of the course, I should be able to:
 2. **Administrator Account Management (CCSA102):** Create administrator accounts and permission profiles using least privilege, and publish changes through sessions.
 3. **Object Management (CCSA103):** Modify, create and clone network, host and service objects, group them, and publish and install the changes.
 4. **Security Policy Management (CCSA104):** Apply the Positive Control Model, build and order an Access Control rulebase, configure NAT, and follow the create, publish, install and verify workflow.
-5. **Policy Layers (CCSA105):** Use policy layers to divide a security policy into logical parts and understand how traffic is evaluated across them.
+5. **Policy Layers (CCSA105):** Build a policy package with Ordered and Inline Layers, explain how traffic is evaluated across them, change and restore layer order, and explain layer sharing.
 6. **Security Operations Monitoring (CCSA106):** Monitor gateway status, logs and events, and use them to investigate security activity and troubleshoot problems.
 7. **Identity Awareness (CCSA107):** Control access based on user and group identity instead of IP addresses alone.
 8. **HTTPS Inspection (CCSA108):** Explain and configure inspection of encrypted traffic so threats hidden in HTTPS can be detected.
@@ -35,7 +35,7 @@ Across all modules, I also aim to:
 | Lab 2 | CCSA102 | [Administrator Account Management](lab2) | Completed (A-SMS only) |
 | Lab 3 | CCSA103 | [Object Management](lab3) | Completed (A-SMS only) |
 | Lab 4 | CCSA104 | [Security Policy Management](lab4) | Completed (configuration only); policy installation unsuccessful due to expired gateway certificates |
-| Lab 5 | CCSA105 | Policy Layers | Pending |
+| Lab 5 | CCSA105 | [Policy Layers](lab5) | Completed (configuration only); policy installation unsuccessful due to expired gateway certificates |
 | Lab 6 | CCSA106 | Security Operations Monitoring | Pending |
 | Lab 7 | CCSA107 | Identity Awareness | Pending |
 | Lab 8 | CCSA108 | HTTPS Inspection | Pending |

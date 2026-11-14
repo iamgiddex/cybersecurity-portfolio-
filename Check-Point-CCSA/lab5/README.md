@@ -1,65 +1,32 @@
-# CCSA105 Lab 5 – Policy Layers (Orion Logistics)
 
-Practical assignment report for **CCSA105 – Policy Layers (Module 5)**, documenting the configuration of Check Point Policy Layers in SmartConsole for the fictional organisation **Orion Logistics**.
+## Summary
+On the management server A-SMS, I created the Orion-Layers policy package and built two Ordered Layers (Orion-Network and Service-Control) and one Inline Layer (DMZ-Policy), then changed and restored the layer order and published each stage. Policy installation on A-GW-Cluster failed four times, so gateway enforcement and the live traffic tests were not verified.
 
-## Overview
+## Environment
+- SmartConsole connected to A-SMS (10.1.1.101); target gateway cluster A-GW-Cluster (A-GW-01, A-GW-02)
+- Policy package: Orion-Layers (Access Control and Threat Prevention)
 
-The lab demonstrates how Check Point Access Control rules can be organised into separate policy layers:
-
-| Layer | Type | Purpose |
-|-------|------|---------|
-| **Orion-Network** | Ordered Layer | General network access, gateway protection, outbound traffic |
-| **Service-Control** | Ordered Layer | Restricts permitted network services |
-| **DMZ-Policy** | Inline Layer | DMZ-specific web and mail access, attached to the *Internal to DMZ* rule |
-
-All of these were created inside the **Orion-Layers** policy package.
-
-## What the report covers
-
-**Part A – Practical tasks**
-1. Explore the default policy and Network layer (General, Advanced, Permissions, Cleanup Rule)
-2. Create the Orion-Layers policy package and build the Network layer
-3. Add a second Ordered Layer (Service-Control)
-4. Attempt policy installation; add the Admin Services rule
-5. Create the DMZ-Policy Inline Layer and attach it to the Internal to DMZ rule
-6. Attempt installation of the updated package
-7. Reorder layers, restore the original order, and explain Sharing
-
-**Part B – Theory questions:** multiple-choice, short-answer, and scenario questions on Ordered vs Inline Layers, enforcement order, Cleanup Rules, and Sharing.
-
-## Environment and limitations
-
-- **Tools used:** Check Point SmartConsole connected to the Security Management Server (A-SMS).
-- **Installation target:** A-GW-Cluster (A-GW-01 and A-GW-02, R82).
-- **Policy installation failed** in Tasks 4, 6 and 7. The screenshots show expired gateway certificates and a TCP connectivity failure on port 18191.
-- As a result, **live traffic tests (T1–T9) were not performed**, and no gateway enforcement logs were collected. They are recorded in the report as *Not performed*; expected policy outcomes are described as expected logic, not observed results.
-
-Configuration completed in SmartConsole is clearly separated in the report from gateway-dependent activities that could not be verified.
-
-## Repository contents
-
-```
-.
-├── README.md
-├── report/
-│   ├── CCSA105_Lab5_Submission_Report_Completed.docx
-│   └── CCSA105_Lab5_Submission_Report_Completed.pdf
-└── screenshots/            (optional – raw captures, if you choose to include them)
-```
-
-## Technologies / topics
-
-Check Point · SmartConsole · Policy Layers · Ordered Layers · Inline Layers · Access Control · Firewall policy · Network security
+## Outcomes
+| Task | Activity | Status |
+|---|---|---|
+| 1 | Explore the default Standard policy and Network layer | Completed |
+| 2 | Create Orion-Layers and the Orion-Network layer (five rules) | Completed (configuration only) |
+| 3 | Add the Service-Control Ordered Layer | Completed (configuration only) |
+| 4 | Install, test and fix (Admin Services rule added) | Attempted, unsuccessful; tests T1 to T5 not performed |
+| 5 | Create the DMZ-Policy Inline Layer and attach it to the Internal to DMZ rule | Completed (configuration only), published |
+| 6 | Install and verify the Inline Layer | Attempted, unsuccessful; tests T6 to T9 not performed |
+| 7 | Reorder the layers, then restore the original order | Completed (configuration only), published; install failed, T3 and T4 not performed |
+| 7 | Explain Sharing | Explained; the optional Orion-Branch package was not created |
+| B | Theory questions (multiple choice, short answer, scenarios) | Completed |
 
 ## Notes
+- The generated layer name was already used by an existing layer, so I kept the name Orion-Network instead of renaming it to Network.
+- Install Policy Details show expired gateway VPN certificate warnings and a TCP connectivity failure on port 18191 for the cluster members.
 
-- This repository contains coursework documentation only; there is no source code to build or run.
-- Screenshots are genuine captures from the lab environment.
+## Not verified
+- Gateway enforcement of the policy, including the Admin Services correction.
+- All nine traffic tests (SSH, HTTP, ping, Telnet, SMTP). The report describes only the expected policy outcomes, not observed results.
+- The effect of the layer reordering on matching rules.
 
-## Author
-
-**[Your Name]** – [Student ID] – [Course / Institution]
-
-## Licence
-
-Documentation © [Your Name]. Shared for portfolio and reference purposes. [Choose a licence, e.g. CC BY-NC 4.0, or "All rights reserved".]
+## Files
+- [Full report](CCSA105_Lab5_Report.pdf)

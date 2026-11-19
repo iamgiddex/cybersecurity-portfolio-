@@ -37,7 +37,6 @@ This repository contains the practical laboratory report and supporting visual e
 
 ## Repository Structure
 * `report/CCSA106_Lab06_C11-26-CCSA-17099.pdf` – Complete formatted lab report with embedded evidence (`E1`–`E6`).
-* `evidence/` – Individual screenshots capturing SmartConsole, SmartView Web, and SmartView Monitor states.
 
 ---
 

@@ -1,12 +1,5 @@
 # Check Point CCSA R82: Security Operations Monitoring (Lab 06)
 
-**Course:** CCSA106 – Check Point Certified Security Administrator (R82)  
-**Module:** Module 6 – Security Operations Monitoring  
-**Author:** Gideon Oluwaferanmi Akinsola  
-**Date:** 19 November 2026  
-
----
-
 ##  Overview
 This repository contains the practical laboratory report and supporting visual evidence for **Lab 06: Security Operations Monitoring**. The objective of this lab is to audit log server storage and retention configurations, investigate firewall traffic using predefined and custom queries, monitor gateway health, and correlate network security logs with administrative audit records.
 

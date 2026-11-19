@@ -29,8 +29,8 @@ This repository contains the practical laboratory report and supporting visual e
 ---
 
 ## Repository Structure
-* [Full report](CCSA106_Lab06_C11-26-CCSA-17099.pdf) – Complete formatted lab report with embedded evidence (`E1`–`E6`).
-* [Full report](CCSA106_Lab06_C11-26-CCSA-17099.docx) – Complete formatted lab report with embedded evidence (`E1`–`E6`).
+* [Full report](CCSA106_Lab06_C11-26-CCSA-17099.pdf) – Complete formatted lab report with embedded evidence (`E1`–`E6`). PDF
+* [Full report](CCSA106_Lab06_C11-26-CCSA-17099.docx) – Complete formatted lab report with embedded evidence (`E1`–`E6`). DOCX
 
 ---
 

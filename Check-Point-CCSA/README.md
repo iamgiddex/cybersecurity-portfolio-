@@ -36,9 +36,9 @@ Across all modules, I also aim to:
 | Lab 3 | CCSA103 | [Object Management](lab3) | Completed (A-SMS only) |
 | Lab 4 | CCSA104 | [Security Policy Management](lab4) | Completed (configuration only); policy installation unsuccessful due to expired gateway certificates |
 | Lab 5 | CCSA105 | [Policy Layers](lab5) | Completed (configuration only); policy installation unsuccessful due to expired gateway certificates |
-| Lab 6 | CCSA106 | Security Operations Monitoring | Pending |
+| Lab 6 | CCSA106 | [Security Operations Monitoring](lab6) | Completed (A-SMS only; historical logs; no gateway counters) |
 | Lab 7 | CCSA107 | Identity Awareness | Pending |
-| Lab 8 | CCSA108 | HTTPS Inspection | Pending |
+| Lab 8 | CCSA108 | [HTTPS Inspection](lab8) | Completed (configuration only); policy installation failed because the gateways were not running |
 | Lab 9 | CCSA109 | Application Control and URL Filtering | Pending |
 | Lab 10 | CCSA110 | Threat Prevention Fundamentals | Pending |
 

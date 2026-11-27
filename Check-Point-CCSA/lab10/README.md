@@ -24,4 +24,4 @@ On the ICDFA R82 gateway cluster (icdfa-r82-cluster), I recorded the lab baselin
 - I did not capture the Publish step separately, and I did not confirm that the pilot scope matches my VPN address or that rule 1 does not overlap it.
 
 ## Files
-- [Full report](CCSA110_Lab10_Report.pdf)
+- [Full report](CCSA110_FinalLab_C11-26-CCSA-17099.pdf)

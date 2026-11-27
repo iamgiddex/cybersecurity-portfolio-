@@ -19,7 +19,7 @@ By the end of the course, I should be able to:
 7. **Identity Awareness (CCSA107):** Control access based on user and group identity instead of IP addresses alone.
 8. **HTTPS Inspection (CCSA108):** Explain and configure inspection of encrypted traffic so threats hidden in HTTPS can be detected.
 9. **Application Control and URL Filtering (CCSA109):** Explain how Application Control and URL Filtering work together, choose the right rule use case for a requirement, and describe the workflow for deploying them.
-10. **Threat Prevention Fundamentals (CCSA110):** Describe and configure the core protections that detect and stop malicious traffic.
+10. **Threat Prevention Fundamentals (CCSA110):** Clone and configure a Threat Prevention profile, build a pilot rule with a protected scope, install it on a gateway, and explain the difference between Detect and Prevent.
 
 Across all modules, I also aim to:
 
@@ -40,7 +40,7 @@ Across all modules, I also aim to:
 | Lab 7 | CCSA107 | Identity Awareness | Pending |
 | Lab 8 | CCSA108 | [HTTPS Inspection](lab8) | Completed (configuration only); policy installation failed because the gateways were not running |
 | Lab 9 | CCSA109 | [Application Control and URL Filtering](lab9) | Completed (theory assignment) |
-| Lab 10 | CCSA110 | Threat Prevention Fundamentals | Pending |
+| Lab 10 | CCSA110 | [Threat Prevention Fundamentals](lab10) | Partly completed: pilot policy installed successfully; Detect and Prevent validation not completed |
 
 ## Tools and Environment
 
